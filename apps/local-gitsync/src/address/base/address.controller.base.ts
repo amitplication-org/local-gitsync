@@ -240,6 +240,7 @@ export class AddressControllerBase {
         },
 
         customerType: true,
+        test: true,
       },
     });
     if (results === null) {

@@ -10,4 +10,5 @@ export type CustomerOrderByInput = {
   phone?: SortOrder;
   addressId?: SortOrder;
   customerType?: SortOrder;
+  test?: SortOrder;
 };

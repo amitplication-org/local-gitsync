@@ -8,4 +8,5 @@ export type Product = {
   itemPrice: number | null;
   description: string | null;
   orders?: Array<Order>;
+  title: string | null;
 };

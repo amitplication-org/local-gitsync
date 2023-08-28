@@ -12,4 +12,5 @@ export type CustomerWhereInput = {
   orders?: OrderListRelationFilter;
   address?: AddressWhereUniqueInput;
   customerType?: "Organization" | "Private";
+  test?: StringNullableFilter;
 };

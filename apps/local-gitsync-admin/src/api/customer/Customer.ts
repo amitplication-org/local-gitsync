@@ -12,4 +12,5 @@ export type Customer = {
   orders?: Array<Order>;
   address?: Address | null;
   customerType?: "Organization" | "Private" | null;
+  test: string | null;
 };
