@@ -33,6 +33,17 @@ export const CustomerCreate = (props: CreateProps): React.ReactElement => {
         <ReferenceInput source="address.id" reference="Address" label="Address">
           <SelectInput optionText={AddressTitle} />
         </ReferenceInput>
+        <SelectInput
+          source="customerType"
+          label="customer type"
+          choices={[
+            { label: "Organization", value: "Organization" },
+            { label: "Private", value: "Private" },
+          ]}
+          optionText="label"
+          allowEmpty
+          optionValue="value"
+        />
       </SimpleForm>
     </Create>
   );
