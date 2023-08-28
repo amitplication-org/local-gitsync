@@ -44,6 +44,7 @@ export const CustomerEdit = (props: EditProps): React.ReactElement => {
           allowEmpty
           optionValue="value"
         />
+        <TextInput label="test" source="test" />
       </SimpleForm>
     </Edit>
   );

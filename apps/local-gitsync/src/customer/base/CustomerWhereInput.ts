@@ -110,6 +110,17 @@ class CustomerWhereInput {
     nullable: true,
   })
   customerType?: "Organization" | "Private";
+
+  @ApiProperty({
+    required: false,
+    type: StringNullableFilter,
+  })
+  @Type(() => StringNullableFilter)
+  @IsOptional()
+  @Field(() => StringNullableFilter, {
+    nullable: true,
+  })
+  test?: StringNullableFilter;
 }
 
 export { CustomerWhereInput as CustomerWhereInput };

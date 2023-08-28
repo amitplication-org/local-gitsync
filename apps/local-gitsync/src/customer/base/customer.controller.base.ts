@@ -76,6 +76,7 @@ export class CustomerControllerBase {
         },
 
         customerType: true,
+        test: true,
       },
     });
   }
@@ -112,6 +113,7 @@ export class CustomerControllerBase {
         },
 
         customerType: true,
+        test: true,
       },
     });
   }
@@ -149,6 +151,7 @@ export class CustomerControllerBase {
         },
 
         customerType: true,
+        test: true,
       },
     });
     if (result === null) {
@@ -203,6 +206,7 @@ export class CustomerControllerBase {
           },
 
           customerType: true,
+          test: true,
         },
       });
     } catch (error) {
@@ -248,6 +252,7 @@ export class CustomerControllerBase {
           },
 
           customerType: true,
+          test: true,
         },
       });
     } catch (error) {

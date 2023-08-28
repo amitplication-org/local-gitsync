@@ -44,6 +44,7 @@ export const CustomerCreate = (props: CreateProps): React.ReactElement => {
           allowEmpty
           optionValue="value"
         />
+        <TextInput label="test" source="test" />
       </SimpleForm>
     </Create>
   );

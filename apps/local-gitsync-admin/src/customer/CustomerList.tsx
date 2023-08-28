@@ -31,6 +31,7 @@ export const CustomerList = (props: ListProps): React.ReactElement => {
           <TextField source={ADDRESS_TITLE_FIELD} />
         </ReferenceField>
         <TextField label="customer type" source="customerType" />
+        <TextField label="test" source="test" />
       </Datagrid>
     </List>
   );

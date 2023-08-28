@@ -5,4 +5,5 @@ export type ProductUpdateInput = {
   itemPrice?: number | null;
   description?: string | null;
   orders?: OrderUpdateManyWithoutProductsInput;
+  title?: string | null;
 };
